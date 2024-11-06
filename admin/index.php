@@ -13,6 +13,6 @@ $queryGetUser = mysqli_query($conn, "SELECT * FROM admin");
     <title>Document</title>
 </head>
 <body>
-
+    
 </body>
 </html>
