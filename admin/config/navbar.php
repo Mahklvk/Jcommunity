@@ -6,7 +6,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <i class="fa-solid fa-bars mt-2"></i>
               <li class="nav-item">
           <a class="nav-link" href="#">Users</a>
             </li>

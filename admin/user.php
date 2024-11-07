@@ -49,12 +49,12 @@ $jumlahUser = mysqli_num_rows($queryGetUser);
                                     <td><?php echo $data['email']?></td>
                                     <td><?php echo$data['created_at']?></td>
                                     <td>
-                                        <a href="useredit.php">
+                                        <a href="useredit.php?p=<?php echo $data['user_id']; ?>">
                                             <div class="btn btn-primary">Edit</div>
                                         </a>
                                     </td>
                                     <td>
-                                    <a href="userdelete.php">
+                                    <a href="userdelete.php?p=<?php echo $data['user_id']; ?>">
                                             <div class="btn btn-danger">Delete</div>
                                         </a>
                                     </td>
