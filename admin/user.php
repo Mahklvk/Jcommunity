@@ -18,7 +18,7 @@ $jumlahUser = mysqli_num_rows($queryGetUser);
 <body>
     <div class="container mt-3">
         <div class="">
-            <h2>List User</h2>
+            <h2>List Users</h2>
 
             <div class="table-responsive mt-5">
                 <table class="table">
