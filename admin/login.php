@@ -9,7 +9,7 @@ require '../config/connect.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/fontawesome/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
     <title>Login Page</title>
 </head>
 <body>
@@ -81,6 +81,6 @@ require '../config/connect.php';
 </div>
 
 <script src="../assets/bootstrap/js/bootstrap.bundle.js"></script>
-<script src="../assets/fontawesome/fontawesome/js/all.min.js"></script>
+<script src="../assets/fontawesome/js/all.min.js"></script>
 </body>
 </html>
