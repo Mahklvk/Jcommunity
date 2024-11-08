@@ -6,17 +6,20 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+          <a class="nav-link" href="../admin">Home</a>
+            </li>
               <li class="nav-item">
-          <a class="nav-link" href="#">Users</a>
+          <a class="nav-link" href="user.php">Users</a>
             </li>
             <li class="nav-item">
-          <a class="nav-link" href="#">User Post</a>
+          <a class="nav-link" href="post.php">Post</a>
             </li>
             <li class="nav-item">
-          <a class="nav-link" href="#">User Comment</a>
+          <a class="nav-link" href="comment.php">Comment</a>
             </li>
             <li class="nav-item">
-          <a class="nav-link" href="#">User Report</a>
+          <a class="nav-link" href="report.php">Report</a>
             </li>
             </ul>
             <form class="d-flex" role="search">

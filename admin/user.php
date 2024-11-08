@@ -17,6 +17,7 @@ $jumlahUser = mysqli_num_rows($queryGetUser);
     <title>User</title>
 </head>
 <body>
+    <?php include('config/navbar.php')?>
     <div class="container mt-3">
         <div class="">
             <h2>List Users</h2>
@@ -37,7 +38,7 @@ $jumlahUser = mysqli_num_rows($queryGetUser);
                         if($jumlahUser == 0){
                             ?>
                             <tr>
-                                <td colspan="3" class="text-center">Data User tidak ada</td>
+                                <td colspan="5" class="text-center">Data User tidak ada</td>
                             </tr>
 <?php
                         }else{
