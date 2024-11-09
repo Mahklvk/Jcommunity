@@ -21,6 +21,12 @@
             <li class="nav-item">
           <a class="nav-link" href="report.php">Report</a>
             </li>
+            <li class="nav-item">
+          <a class="nav-link" href="community.php">Community</a>
+            </li>
+            <li class="nav-item">
+          <a class="nav-link" href="topics.php">Topics</a>
+            </li>
             </ul>
             <form class="d-flex" role="search">
                 <a href="#" class="nav-link me-3">Account</a>
