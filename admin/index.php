@@ -129,6 +129,11 @@ $jumlahCommunity = mysqli_num_rows($queryGetCommunity);
             box-shadow: 3px 3px 10px rgba(97, 92, 92, 0.3);
             /* Bayangan lebih kecil */
         }
+
+        .no-decoration{
+            text-decoration: none;
+            color: black;
+        }
     </style>
 </head>
 
@@ -138,22 +143,25 @@ $jumlahCommunity = mysqli_num_rows($queryGetCommunity);
     <div class="container mt-3">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12 mb-3">
+                <a href="post.php" class="no-decoration">
                 <div class="summary-user p-3">
                     <div class="row">
                         <div class="col-6">
                             <i class="fas fa-user fa-7x text-black-50 icon-user"></i>
                         </div>
 
-                        <div class="text-black">
+                        <div class="text-black" >
                             <h3 class="fs-2">Users</h3>
                             <p class="fs-4">Users: <?php echo $jumlahUser ?></p>
                             <p><a href="kategori.php" class="text-white nodeco">Lihat Kategori</a></p>
                         </div>
                     </div>
                 </div>
+            </a>
             </div>
 
             <div class="col-lg-4 col-md-6 col-12">
+                <a href="post.php" class="no-decoration">
                 <div class="summary-post p-3">
                     <div class="row">
                         <div class="col-6 ">
@@ -167,8 +175,10 @@ $jumlahCommunity = mysqli_num_rows($queryGetCommunity);
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
+            <a href="comment.php" class="no-decoration">
                 <div class="summary-comment p-3">
                     <div class="row">
                         <div class="col-6 ">
@@ -182,8 +192,10 @@ $jumlahCommunity = mysqli_num_rows($queryGetCommunity);
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
+                <a href="report.php" class="no-decoration">
                 <div class="summary-report p-3">
                     <div class="row">
                         <div class="col-6 ">
@@ -197,8 +209,10 @@ $jumlahCommunity = mysqli_num_rows($queryGetCommunity);
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
+            <a href="community.php" class="no-decoration">
                 <div class="summary-community p-3">
                     <div class="row">
                         <div class="col-6 ">
@@ -212,6 +226,7 @@ $jumlahCommunity = mysqli_num_rows($queryGetCommunity);
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
     </div>
